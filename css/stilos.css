@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(148, 148, 216);
+    padding: 60px;
+}
+pre {
+    color: cornsilk;
+    font-size: 30px;
+}
+img {
+   width: 180px; 
+   height: 200px;
+   border: 40px;  
+   border: 1px solid black ; 
+}
+h1 {
+    color: cornsilk;
+}
+h2 { 
+    padding: 1px;
+    color: cornsilk;
+}
