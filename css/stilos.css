@@ -1,21 +1,28 @@
-body {
-    background-color: rgb(148, 148, 216);
-    padding: 60px;
-}
-pre {
-    color: cornsilk;
-    font-size: 30px;
+body {       
+   margin: 0%; 
 }
 img {
    width: 180px; 
    height: 200px;
-   border: 40px;  
-   border: 1px solid black ; 
+   
 }
-h1 {
-    color: cornsilk;
+h2 {     
+    
+    
 }
-h2 { 
-    padding: 1px;
-    color: cornsilk;
+.header {     
+    background-color: rgb(133, 14, 14);
+    padding: 3px;
+}
+.menu {
+    color: azure;
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+}
+.menu__info {
+    padding: 7px;
+}
+.galeria {
+    margin: 200px;
 }
