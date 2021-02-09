@@ -11,7 +11,7 @@ h2 {
     
 }
 .header {     
-    background-color: rgb(133, 14, 14);
+    background-color: rgb(18, 134, 24);
     padding: 3px;
 }
 .menu {
@@ -25,4 +25,12 @@ h2 {
 }
 .galeria {
     margin: 200px;
+    margin-top: 20px;
+}
+.galeriaJabon {
+    margin: 200px;
+}
+.fondo {
+    width: 1350px;
+    height: 400px;
 }
