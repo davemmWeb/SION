@@ -6,11 +6,14 @@ img {
    height: 200px;
    
 }
-h2 {     
-    
-    
+h2 {    
+   margin-left: 800px; 
+
 }
-.header {     
+.visually-hidden {
+    color: black;
+}
+.container-fluid-header {     
     background-color: rgb(18, 134, 24);
     padding: 3px;
 }
@@ -23,14 +26,20 @@ h2 {
 .menu__info {
     padding: 7px;
 }
-.galeria {
-    margin: 200px;
-    margin-top: 20px;
+.perroUno {
+    width: 600px;
+    height: 400px;
+    position: absolute;
 }
 .galeriaJabon {
     margin: 200px;
 }
-.fondo {
-    width: 1350px;
-    height: 400px;
+.carousel-inner {
+    width: 200px;    
+    margin-left: 1000px;
+    position: relative;
+}
+.container-fluid {
+    
+    height: 300px;
 }
