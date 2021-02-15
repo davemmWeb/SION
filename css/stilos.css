@@ -6,7 +6,9 @@ img {
    height: 200px;
    
 }
-h2 {    
+.tituloUno { 
+   font-family: fantasy, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   color: rgb(26, 148, 142);
    margin-left: 800px; 
 
 }
@@ -35,11 +37,26 @@ h2 {
     margin: 200px;
 }
 .carousel-inner {
+    top: 80px;
     width: 200px;    
-    margin-left: 1000px;
+    margin-left: 900px;
     position: relative;
 }
 .container-fluid {
-    
+    margin: 0%;
     height: 300px;
+}
+.carousel-control-prev {
+    width: 30px;
+    height: 30px;
+    top: 100px;
+    margin-left:730px;
+    background: gray;
+}
+.carousel-control-next {
+    width: 30px;
+    height: 30px;
+    top: 100px;
+    margin-right:80px;
+    background: gray;
 }
