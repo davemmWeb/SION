@@ -3,20 +3,57 @@ body {
 }
 img {
    width: 180px; 
-   height: 200px;
-   
+   height: 200px;   
+}
+h5 {
+    font-size: 30px;
+    font-family: 'Modak', cursive;
+    
 }
 .tituloUno { 
    font-family: fantasy, Cochin, Georgia, Times, 'Times New Roman', serif; 
    color: rgb(26, 148, 142);
-   margin-left: 800px; 
+   margin-left: 800px;
+}
+/* estilos primer carrusel */
+.slider {
+    width: 95%;
+    margin: auto;
+    background-color: rgb(26, 148, 142);
+    overflow: hidden;
+}
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 
 }
+
+
 .visually-hidden {
     color: black;
 }
 .container-fluid-header {     
-    background-color: rgb(18, 134, 24);
+    background-color: rgb(26, 148, 142);
     padding: 3px;
 }
 .menu {
@@ -29,6 +66,7 @@ img {
     padding: 7px;
 }
 .perroUno {
+    background-color: rgb(26, 148, 142); ;
     width: 600px;
     height: 400px;
     position: absolute;
@@ -36,27 +74,9 @@ img {
 .galeriaJabon {
     margin: 200px;
 }
-.carousel-inner {
-    top: 80px;
-    width: 200px;    
-    margin-left: 900px;
-    position: relative;
-}
+
 .container-fluid {
     margin: 0%;
     height: 300px;
 }
-.carousel-control-prev {
-    width: 30px;
-    height: 30px;
-    top: 100px;
-    margin-left:730px;
-    background: gray;
-}
-.carousel-control-next {
-    width: 30px;
-    height: 30px;
-    top: 100px;
-    margin-right:80px;
-    background: gray;
-}
+
