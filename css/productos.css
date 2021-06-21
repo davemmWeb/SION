@@ -1,0 +1,145 @@
+:root {
+    --color-negro: #1b1b1b;
+    --color-blanco: #ffffff;
+    --color-aguaMarina: rgb(42, 140, 153);
+    --color-gris: grey;
+    --color-amarillo: rgb(196, 189, 92);
+    --color-verde: green;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url("/img/fondo-productos.jpg");
+    background-size: 88%
+    
+}
+
+/*-----------estilos header ----------- */
+.header{
+    width: 100%;
+    height: 10px;
+}
+.logo{
+    width: 10%;
+    margin-left: 2%;    
+}
+.menu{
+    position: absolute;
+    width: 50%;
+    left: 600px;
+    top: 40px;
+}
+.menu li{ 
+    font-family: 'Gloria Hallelujah', cursive;     
+    color: var(--color-negro);    
+    margin-right: 5%;
+    list-style: none;
+    font-size: 22px;    
+    display: inline;
+    padding: 10px;  
+    cursor: pointer; 
+}
+.menu li:hover {
+    color: var(--color-aguaMarina);    
+}
+.resaltar{    
+    background: var(--color-amarillo);
+}
+.carrito img{
+    position: absolute;
+    width: 6%;
+    left: 1230px;
+    top: 20px;
+    cursor: pointer;
+}
+
+/* ---------------estilos titulo--------------- */
+
+.titulo{
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    left: 43%;
+    top: 17%;
+}
+.titulo h2{
+    color: var(--color-gris);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.linea{
+    position: absolute;
+    left: 46%;
+    top: 26%;
+    width: 10%;
+    height: 5px;
+    background: yellowgreen;
+}
+/* ---------------------carruseles--------------------- */
+
+/* ---Carrusel Uno--- */
+
+.carruselUno{
+    
+    position: absolute;
+    top: 26%;
+    left: 13%;
+    width: 20%;
+    height: 40%;
+    float: left;
+    
+}
+.carruselUno h2{
+    background: var(--color-aguaMarina);
+    color: var(--color-blanco);
+    border-radius: 12px;
+    text-align: center;
+    width: 40%;
+    margin-left: 13%;
+    font-family: 'Gloria Hallelujah', cursive;    
+}
+.carruselUno img{
+    width: 70%;
+}
+.carruselUno i{       
+    position: absolute;
+    top: 60%; 
+    cursor: pointer;   
+}
+.carruselUno .fas{    
+    color: var(--color-gris);
+      
+}
+
+/* ---Carrusel Dos--- */
+
+.carruselDos{    
+    position: absolute;
+    top: 26%;
+    left: 72%;
+    width: 20%;
+    height: 40%;
+    float: left;
+}
+.carruselDos h2{
+    background: var(--color-aguaMarina);
+    color: var(--color-blanco);
+    border-radius: 12px;
+    text-align: center;
+    width: 40%;
+    margin-left: 12%;
+    font-family: 'Gloria Hallelujah', cursive;    
+}
+.carruselDos img{
+    width: 70%;
+}
+.carruselDos i{       
+    position: absolute;
+    top: 60%; 
+    cursor: pointer;   
+}
+.carruselDos .fas{    
+    color: var(--color-gris);
+      
+}
