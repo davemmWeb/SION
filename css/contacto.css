@@ -4,6 +4,7 @@
     --color-aguaMarina: rgb(42, 140, 153);
     --color-gris: grey;
     --color-amarillo: rgb(196, 189, 92);
+    --color-rojo: rgb(245, 20, 20);
     
 }
 h2{
@@ -23,8 +24,8 @@ a{
 }
 
 body{
-    background: url("/img/fondo-productos.jpg");
-    background-size: 88%
+    background: url("/img/fondo-contacto.jpg");
+    background-size: 100%
     
 }
 
@@ -69,4 +70,81 @@ body{
 
 /* ---------------estilos titulo--------------- */
 
+.banner{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    background: rgba(0, 0, 0, 0.5) ;
+    width: 50%;
+    height:75%;
+}
+.titulo{
+    margin-top:-10%;
+    margin-left: -20%;
+    color: var(--color-blanco);
+}
+.formulario{
+    position: absolute;    
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 13%;
+}
+legend{
+    margin-left: 17%;
+    height: 8%;
+    
+}
+legend span{
+    color: var(--color-rojo);
+}
+.nombre{
+    margin-left: 2%;
+}
 
+.input-nombre input{
+    position: absolute;
+    left: 2%;
+    width: 90%;
+    height: 8%;
+    background: rgba(248, 246, 246, 0.5);
+}
+
+.correo{
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.input-correo input{
+    position: absolute;
+    left: 2%;
+    width: 90%;
+    height: 8%;
+    background: rgba(248, 246, 246, 0.5);
+}
+
+.telefono{
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.input-telefono input{
+    position: absolute;
+    left: 2%;
+    width: 90%;
+    height: 8%;
+    background: rgba(248, 246, 246, 0.5);
+}
+
+.pregunta{
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.input-pregunta input{
+    position: absolute;
+    left: 2%;
+    width: 90%;
+    height: 15%;
+    background: rgba(248, 246, 246, 0.5);
+}
