@@ -4,8 +4,8 @@
     --color-aguaMarina: rgb(42, 140, 153);
     --color-gris: grey;
     --color-amarillo: rgb(196, 189, 92);
-    --color-rojo: rgb(245, 20, 20);
-    --color-transparenteAzul:  rgba(6, 106, 131, 0.3);  
+    --color-rojo: rgb(245, 20, 20); 
+    --color-transparenteAzul:  rgba(6, 106, 131, 0.3);   
     --color-blancoTransparente: rgba(175, 175, 175, 0.3);
 }
 h2{
@@ -16,16 +16,17 @@ h2{
     left: 45%;
     font-size: 30px;
 }
-
 a{
     text-decoration: none;
 }
-
 body{
-    background: url("/img/fondo-contacto.jpg");
-    background-size: 100%    
+    background: url("/img/fondo-registro.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
 }
-
 /*-----------estilos header ----------- */
 .header{
     width: 100%;
@@ -64,14 +65,13 @@ body{
     top: 20px;
     cursor: pointer;
 }
-
 /* ---------------estilos titulo--------------- */
 
 .banner{
     position: absolute;
     top: 15%;
     left: 27%;
-    background: var(--color-blancoTransparente); 
+    background: var(--color-blancoTransparente);
     width: 50%;
     height:75%;
 }
@@ -88,7 +88,7 @@ body{
     top: 13%;
 }
 legend{
-    margin-left: 17%;
+    margin-left: 2%;
     height: 8%;
     
 }
@@ -103,58 +103,72 @@ legend span{
     position: absolute;
     left: 2%;
     width: 90%;
-    height: 8%;
+    height: 6%;
+    background: rgba(248, 246, 246, 0.5);
+}
+
+.apellido{
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+.input-apellido input{
+    position: absolute;
+    left: 2%;
+    width: 90%;
+    height: 6%;
     background: rgba(248, 246, 246, 0.5);
 }
 
 .correo{
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .input-correo input{
     position: absolute;
     left: 2%;
     width: 90%;
-    height: 8%;
+    height: 6%;
     background: rgba(248, 246, 246, 0.5);
 }
 
-.telefono{
+.contraseña{
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
-.input-telefono input{
+.input-contraseña input{
     position: absolute;
     left: 2%;
     width: 90%;
-    height: 8%;
+    height: 6%;
     background: rgba(248, 246, 246, 0.5);
 }
 
-.pregunta{
+.repetirContraseña{
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
-.input-pregunta input{
+.input-repetirContraseña input{
     position: absolute;
     left: 2%;
     width: 90%;
-    height: 15%;
+    height: 6%;
     background: rgba(248, 246, 246, 0.5);
 }
 
-.enviar button{
+.enviarRegistro button{
     cursor: pointer;
     position: absolute;
-    left: 38%;
-    top:92%;
-    width: 20%;
-    height: 10%;
+    left: 34%;
+    text-align: center;
+    top:94%;
+    width: 30%;
+    height: 8%;
     color: var(--color-blanco);
     font-family:'Gloria Hallelujah', cursive;
-    font-size: 23px;
+    font-size: 20px;
     background: var(--color-aguaMarina);
 }

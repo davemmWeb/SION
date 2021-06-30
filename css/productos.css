@@ -12,7 +12,10 @@ a{
 
 body{
     background: url("/img/fondo-productos.jpg");
-    background-size: 88%
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     
 }
 
@@ -83,7 +86,7 @@ body{
 .carruselUno{
     
     position: absolute;
-    top: 26%;
+    top: 20%;
     left: 13%;
     width: 20%;
     height: 40%;
@@ -116,7 +119,7 @@ body{
 
 .carruselDos{    
     position: absolute;
-    top: 26%;
+    top: 20%;
     left: 72%;
     width: 20%;
     height: 40%;

@@ -5,6 +5,7 @@
     --color-gris: grey;
     --color-amarillo: rgb(196, 189, 92);
     --color-verde: green;
+    --color-transparenteAzul:  rgba(6, 106, 131, 0.3);  
 }
 a{
     text-decoration: none;
@@ -12,6 +13,9 @@ a{
 body{
     background: var(--color-aguaMarina);
     background-image:url("/img/fondo-inicio.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
 }
 /*-----------estilos header ----------- */
@@ -53,24 +57,24 @@ body{
     cursor: pointer;
 }
 /* ------------------estilos banner------------------ */
-.banner{    
+.banner{       
     position: absolute;
     width: 70%;
-    height: 70%;
-    left: 18%;
-    bottom: 15%;
+    height: 30%;
+    left: 22%;
+    top: 50%;
     
 }
 .anuncio h1{
-    color: var(--color-negro);
+    color: var(--color-blanco);
     font-size: 50px;
     font-family: 'Gloria Hallelujah', cursive;
-    margin-bottom: 30%; 
+    margin-bottom: 1%; 
     
 }
 .anuncio button{
-    margin-left: 30%;
-    background-color: rgba(0, 200, 173, 0.3);
+    margin-left: 25%;
+    background-color: var(--color-transparenteAzul);
     width: 35%;
     height: 40px;
     color: var(--color-blanco);
@@ -82,12 +86,13 @@ body{
 .footer{
     position: absolute;
     width: 90%;
-    height: 10px;
-    top: 500px;    
+    height: 1%;
+    top: 70%; 
+    left: 6%;   
 }
-.redes{     
+.redes{      
     width: 20%;
-    height: 80px;
+    height: 40px;
     margin-left: 70px;
     margin-top: 90px;
     float: left;
@@ -100,8 +105,9 @@ body{
     font-size: 28px;
 }
 .whatsapp{
+    
     float: left; 
-    margin-left: 850px; 
+    margin-left: 900px; 
     width: 2%; 
     margin-top: 90px; 
 }

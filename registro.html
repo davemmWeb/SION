@@ -9,7 +9,7 @@
   <title>Contacto</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/contacto.css">
+  <link rel="stylesheet" href="/css/registro.css">
 </head>
 
 <body>
@@ -23,10 +23,10 @@
         <a href="productos.html">
           <li>Productos</li>
         </a>
-        <a class="resaltar" href="contacto.html">
+        <a  href="contacto.html">
           <li>Contacto</li>
         </a>
-        <a href="registro.html">
+        <a class="resaltar" href="registro.html">
           <li>Registrate</li>
         </a>
       </div>
@@ -37,10 +37,10 @@
   </header>
 
   <div class="banner">
-    <h2 class="titulo">Formulario de contacto</h2>
+    <h2 class="titulo">Crear cuenta de cliente</h2>
     <form class="formulario" action="form">
       <legend class="legent">
-        <span>Todos los campos de este formulario deben ser completados</span>
+        <span>Informacion personal</span>
       </legend>
       <div class="nombre" >
         <label  for="name">
@@ -51,36 +51,45 @@
         <input type="text" id="nombre" title="Nombre">
       </div>
 
+      <div class="apellido" >
+        <label  for="apellido">
+          <span>Apellido</span>
+        </label>
+      </div>
+      <div class="input-apellido">
+        <input type="text" id="apellido" title="apellido">
+      </div>
+
       <div class="correo" >
         <label  for="correo">
           <span>Correo</span>
         </label>
       </div>
       <div class="input-correo">
-        <input type="text" id="correo" title="Correo">
+        <input type="text" id="correo" title="correo">
       </div>
 
-      <div class="telefono" >
-        <label  for="telefono">
-          <span>Numero de telefono</span>
+      <div class="contraseña" >
+        <label  for="contraseña">
+          <span>Contraseña</span>
         </label>
       </div>
-      <div class="input-telefono">
-        <input type="text" id="telefono" title="Telefono">
+      <div class="input-contraseña">
+        <input type="text" id="contraseña" title="contraseña">
       </div>
 
-      <div class="pregunta" >
-        <label  for="pregunta">
-          <span>¿ Cual es tu pregunta ?</span>
+      <div class="repetirContraseña" >
+        <label  for="repetirContraseña">
+          <span>Repetir Contraseña</span>
         </label>
       </div>
-      <div class="input-pregunta">
-        <input type="text" id="pregunta" title="Pregunta">
+      <div class="input-repetirContraseña">
+        <input type="text" id="repetirContraseña" title="repetirContraseña">
       </div>
 
-      <div class="enviar">
+      <div class="enviarRegistro">
         <button>
-          Enviar
+          Crear cuenta
       </button>
       </div>
 
