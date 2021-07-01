@@ -5,6 +5,7 @@
     --color-gris: grey;
     --color-amarillo: rgb(196, 189, 92);
     --color-verde: green;
+    --color-blancoTransparente: rgba(175, 175, 175, 0.3);
 }
 a{
     text-decoration: none;
@@ -15,7 +16,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 100% 100%;
     
 }
 
@@ -79,70 +80,64 @@ body{
     height: 5px;
     background: yellowgreen;
 }
-/* ---------------------carruseles--------------------- */
+/* ---------------------categorias Productos--------------------- */
 
-/* ---Carrusel Uno--- */
-
-.carruselUno{
-    
-    position: absolute;
-    top: 20%;
-    left: 13%;
-    width: 20%;
-    height: 40%;
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
     float: left;
-    
+    color: var(--color-aguaMarina);
+    margin-left: 4%;
 }
-.carruselUno h2{
-    background: var(--color-aguaMarina);
-    color: var(--color-blanco);
-    border-radius: 12px;
-    text-align: center;
-    width: 40%;
-    margin-left: 13%;
-    font-family: 'Gloria Hallelujah', cursive;    
-}
-.carruselUno img{
-    width: 70%;
-}
-.carruselUno i{       
+.categorias{
+    background: var(--color-blancoTransparente);
     position: absolute;
-    top: 60%; 
-    cursor: pointer;   
+    width: 80%;
+    height: 25%;
+    top: 35%;
+    left: 10%;
+        
 }
-.carruselUno .fas{    
-    color: var(--color-gris);
-      
+.imgGatos{
+    width: 50%; 
+    height: 80%; 
 }
-
-/* ---Carrusel Dos--- */
-
-.carruselDos{    
-    position: absolute;
-    top: 20%;
-    left: 72%;
-    width: 20%;
-    height: 40%;
+.gatos{
+    cursor: pointer;
+    background: lightblue;
     float: left;
+    width: 25%;
+    height: 100%;
 }
-.carruselDos h2{
-    background: var(--color-aguaMarina);
-    color: var(--color-blanco);
-    border-radius: 12px;
-    text-align: center;
-    width: 40%;
-    margin-left: 12%;
-    font-family: 'Gloria Hallelujah', cursive;    
+.imgPerros{
+    width: 50%; 
+    height: 80%; 
 }
-.carruselDos img{
-    width: 70%;
+.perros{
+    cursor: pointer;
+    background: lightcoral;
+    float: left;
+    width: 25%;
+    height: 100%;
 }
-.carruselDos i{       
-    position: absolute;
-    top: 60%; 
-    cursor: pointer;   
+.imgAseo{
+    width: 50%; 
+    height: 80%; 
 }
-.carruselDos .fas{    
-    color: var(--color-gris);
-      
+.aseo{
+    cursor: pointer;
+    background: lightgreen;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.accesorios{
+    cursor: pointer;
+    background: lightslategray;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.imgAcces{
+    width: 50%; 
+    height: 80%; 
 }

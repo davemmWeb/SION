@@ -84,17 +84,18 @@ body{
     cursor: pointer;
 }
 .footer{
+    
     position: absolute;
     width: 90%;
-    height: 1%;
-    top: 70%; 
+    height: 10%;
+    top: 80%; 
     left: 6%;   
 }
 .redes{      
     width: 20%;
     height: 40px;
-    margin-left: 70px;
-    margin-top: 90px;
+    margin-left: 80px;
+    margin-top: 30px;
     float: left;
 }
 .redes span{  
@@ -105,11 +106,11 @@ body{
     font-size: 28px;
 }
 .whatsapp{
-    
+   
     float: left; 
-    margin-left: 900px; 
+    margin-left: 1100px; 
     width: 2%; 
-    margin-top: 90px; 
+    margin-top: -4%; 
 }
 .whatsapp span{
     color: var(--color-blanco);
