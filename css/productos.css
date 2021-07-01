@@ -98,46 +98,54 @@ h2{
         
 }
 .imgGatos{
+    cursor: pointer;
     width: 50%; 
     height: 80%; 
+    margin-top: 6%;
 }
 .gatos{
-    cursor: pointer;
-    background: lightblue;
+    
+    background: rgb(186, 217, 228);
     float: left;
     width: 25%;
     height: 100%;
 }
 .imgPerros{
-    width: 50%; 
-    height: 80%; 
+    cursor: pointer;
+    width: 58%; 
+    height: 88%;
+    margin-top: 6%; 
 }
 .perros{
-    cursor: pointer;
-    background: lightcoral;
+    
+    background: rgb(235, 164, 164);
     float: left;
     width: 25%;
     height: 100%;
 }
 .imgAseo{
-    width: 50%; 
-    height: 80%; 
+    cursor: pointer;
+    width: 55%; 
+    height: 85%; 
+    margin-top: 6%;
 }
 .aseo{
-    cursor: pointer;
-    background: lightgreen;
+    
+    background: rgb(162, 235, 162);
     float: left;
     width: 25%;
     height: 100%;
 }
 .accesorios{
-    cursor: pointer;
-    background: lightslategray;
+    
+    background: rgb(150, 173, 196);
     float: left;
     width: 25%;
     height: 100%;
 }
 .imgAcces{
-    width: 50%; 
-    height: 80%; 
+    cursor: pointer;
+    width: 55%; 
+    height: 85%; 
+    margin-top: 6%;
 }
