@@ -1,0 +1,244 @@
+:root {
+    --color-negro: #1b1b1b;
+    --color-blanco: #ffffff;
+    --color-aguaMarina: rgb(42, 140, 153);
+    --color-gris: grey;
+    --color-amarillo: rgb(196, 189, 92);
+    --color-rojo: rgb(245, 20, 20); 
+    --color-transparenteAzul:  rgba(6, 106, 131, 0.3);   
+    --color-blancoTransparente: rgba(175, 175, 175, 0.3);
+}
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+    position: absolute;
+    color: var(--color-aguaMarina);
+    top: 15%;
+    left: 40%;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+body{    
+    
+    
+}
+/*-----------estilos header ----------- */
+.header{
+    width: 100%;
+    height: 10px;
+}
+.logo{
+    width: 10%;
+    margin-left: 2%;    
+}
+.menu{
+    position: absolute;
+    width: 50%;
+    left: 600px;
+    top: 40px;
+}
+.menu li{ 
+    font-family: 'Gloria Hallelujah', cursive;     
+    color: var(--color-negro);    
+    margin-right: 5%;
+    list-style: none;
+    font-size: 22px;    
+    display: inline;
+    padding: 10px;  
+    cursor: pointer; 
+}
+.menu li:hover {
+    color: var(--color-aguaMarina);    
+}
+.resaltar{    
+    background: var(--color-amarillo);
+}
+.carrito img{
+    position: absolute;
+    width: 6%;
+    left: 1230px;
+    top: 20px;
+    cursor: pointer;
+}
+
+/* -----------estilos imagenes productos----------- */
+.productosGatos{
+    position: absolute;
+    width: 80%;
+    height: 200%;
+    margin-left: 10%;
+    background:var(--color-blanco);
+    margin-top: 15%;
+    
+}
+.productos{
+    background: var(--color-blanco);
+    border: #c0bbbb solid 1px;
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 20%;   
+    margin-right: 40px; 
+    margin-top: 30px;
+    margin-left: 17px;
+}
+.info{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.info strong{
+    background: var(--color-blancoTransparente);
+    color: #686363;
+    width: 30%;
+    height: 12%;
+}
+.precio span{ 
+    background: #ffffff;     
+    margin-left: 10px;
+    color: var(--color-aguaMarina);
+    font-family: fantasy;
+    font-size: 25px;
+    top: 40px;
+
+}
+.precio .desde{
+    margin: 0;
+    color: var(--color-gris);
+    width: 50px;
+    font-size: 15px;
+    margin-left: 20px;
+    background: white;
+}
+/* ---------------------------------------------------- */
+
+.AgilityGrandesAdult img{
+    width: 150px;    
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 6px; 
+                                                              
+}
+
+.agilityGrandesCacho img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+                     
+}
+.agilityPeqAdul img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;    
+}
+.agilityPequeCacho img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px; 
+    margin-top: 6px;        
+}
+.chunkyAdulPollo img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px; 
+    margin-top: 6px;  
+}
+.chunkyCachorros img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.chunkyCordero img{
+    width: 150px;    
+    height: 150px;
+    margin-left: 15px;  
+    margin-top: 6px;        
+}
+.chunkyDelidogDent img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px; 
+    margin-top: 6px;
+}
+.chunkyDelidogMix img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.Dog_Chow_peq_adu img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.dogChowAduGran img{
+    width: 150px;    
+    height: 150px;
+    margin-left: 15px; 
+    margin-top: 6px;      
+}
+.dogChowAduPeq img{
+    width: 150px;    
+    height: 150px;
+    margin-left: 15px; 
+    margin-top: 6px;      
+}
+.dogChowCachoMini img{
+    width: 150px;    
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 6px;       
+}
+.Nutrecan_Adult_Razas_Pequ img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.nutreCanCroqAdul img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.nutreCatHome img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.nutrissCarne img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.nutrissPollo img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.NutrissCachorroLeche img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.ringoCroquetas img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.ringoPremium img{
+    width: 150px;    
+    height: 150px;       
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
